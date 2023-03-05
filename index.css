@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ElcVoyyKscseyrsiMDJMITogq0-Rrauhhw&usqp=CAU");
+    background-color: red ;
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#board{
+    background: linear-gradient(rgb(122, 175, 199) ,rgb(194, 194, 92));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid rgb(22, 22, 24);
+    display: grid ;
+    grid-template-rows: repeat(18 , 1fr);
+    grid-template-columns: repeat(18 ,1fr);
+}
+.head{
+    background-color: red;
+    border: 2px solid orange;
+}
+.snake{
+    background-color: purple;
+    border: 25vmin solid white;
+    border-radius: 12px;
+}
+.food{
+    background-color: green;
+    border: 2px solid purple;
+    border-radius: 8px;
+}
